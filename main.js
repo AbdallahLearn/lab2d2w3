@@ -139,3 +139,43 @@ if (words.includes(searchWord)) {
     console.log(`${searchWord} not existed in array.`);
 }
 
+
+
+console.log("-----------------lab2 functions")
+
+
+
+
+
+let num1 = 10;
+let num2 = 2;
+
+
+function sum(num1, num2){
+    return num1 + num2
+}
+
+function sub(num1, num2){
+    return num1 - num2
+}
+
+
+function mult(num1, num2){
+    return num1 * num2
+}
+
+function divide(num1, num2){
+    return num1 / num2
+}
+
+
+function reminder(num1, num2){
+    return num1 % num2
+}
+
+
+console.log(num1 + " + " + num2 +" = " + sum(num1, num2))
+console.log(num1 + " - " + num2 +" = " + sub(num1, num2))
+console.log(num1 + " * " + num2 +" = " + mult(num1, num2))
+console.log(num1 + " / " + num2 +" = " + divide(num1, num2))
+console.log(num1 + " % " + num2 +" = " + reminder(num1, num2))
